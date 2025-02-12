@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rpg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rpg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rpg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="D:/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="../../../SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/armas.h" />
+		<Unit filename="include/camara.h" />
+		<Unit filename="include/colisiones.h" />
+		<Unit filename="include/colisionmapa.h" />
+		<Unit filename="include/juego.h" />
+		<Unit filename="include/mapa .h" />
+		<Unit filename="include/mpapas.h" />
+		<Unit filename="include/objetos_sobrepuestos.h" />
+		<Unit filename="include/pantalla_de_inicio.h" />
+		<Unit filename="include/personaje.h" />
+		<Unit filename="include/smiles.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/armas.cpp" />
+		<Unit filename="src/camara.cpp" />
+		<Unit filename="src/colisiones.cpp" />
+		<Unit filename="src/colisionmapa.cpp" />
+		<Unit filename="src/juego.cpp" />
+		<Unit filename="src/mapa .cpp" />
+		<Unit filename="src/mpapas.cpp" />
+		<Unit filename="src/objetos_sobrepuestos.cpp" />
+		<Unit filename="src/pantalla_de_inicio.cpp" />
+		<Unit filename="src/personaje.cpp" />
+		<Unit filename="src/smiles.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
