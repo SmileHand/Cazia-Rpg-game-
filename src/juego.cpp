@@ -103,7 +103,7 @@ juego::juego()
     app.create(sf::VideoMode(WITH, HEIGHT, 64), "Juego de smile", sf::Style::Default);
     delmapa.x = 800;
     delmapa.y = 40;
-    delmapa.w = 50;
+    delmapa.w = 500;
     delmapa.h = 600;
     pared.setSize(sf::Vector2f(delmapa.w,delmapa.h));
     pared.setPosition(delmapa.x,delmapa.y);
