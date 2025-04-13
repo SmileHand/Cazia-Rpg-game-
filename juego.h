@@ -1,15 +1,15 @@
 #ifndef JUEGO_H
 #define JUEGO_H
 #include <SFML/Graphics.hpp>
-#include <personaje.h>
-#include <objetos_sobrepuestos.h>
-#include <camara.h>
-#include <pantalla_de_inicio.h>
-#include <armas.h>
-#include <colisiones.h>
-#include <mpapas.h>
-#include <colisionmapa.h>
-#include <smiles.h>
+#include "personaje.h"
+#include "objetos_sobrepuestos.h"
+#include "camara.h"
+#include "pantalla_de_inicio.h"
+#include "armas.h"
+#include "colisiones.h"
+#include "mpapas.h"
+#include "colisionmapa.h"
+#include "smiles.h"
 
 
 class juego

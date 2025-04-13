@@ -1,4 +1,4 @@
-#include <juego.h>
+#include "juego.h"
 
 juego cazia;
 //te quedaste en la inercia de el personaje

@@ -1,9 +1,9 @@
 #ifndef CAMARA_H
 #define CAMARA_H
 #include <SFML/Graphics.hpp>
-#include <personaje.h>
+#include "personaje.h"
 #include <iostream>
-#include<cmath>
+#include <cmath>
 
 class camara
 {

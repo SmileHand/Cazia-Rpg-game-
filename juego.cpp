@@ -1,13 +1,13 @@
 #include "juego.h"
 
- void juego::inicio(){
+void juego::inicio(){
     app.setFramerateLimit(fps);
     yo.inicio();
     suelo.crear_nuevo("recursos/texturas/suelo.png",0,0);
     pantalla1.iniciar();
     armas1.inicio();
 
-}
+    }
 
 void juego::DIBUJADO_DE_TEXTURAS_DE_FONDO(){
 
